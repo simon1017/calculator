@@ -6,7 +6,6 @@ import darkdetect
 
 class Calculator(ctk.CTk):
     def __init__(self, is_dark):
-
         #setup
         super().__init__(fg_color = (WHITE,BLACK))
 
